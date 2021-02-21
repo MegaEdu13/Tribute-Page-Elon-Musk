@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main {
+    background-color: rgb(240, 240, 240);
+    margin: 5%;
+}
+
+#title {
+    text-align: center;
+    padding: 5%;
+}
+
+#sub-title {
+    text-align: center;
+}
+
+#img-div {
+    background-color: white;
+    border: solid thin rgb(211, 211, 211);
+    border-radius: 5px;
+    margin: 3%;
+}
+
+#image{
+    display: block;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+#img-caption {
+    font-size: 80%;
+    text-align: center;
+    margin: 2%;
+}
+
+#tribute-info {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5%;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+#path-title {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#path {
+    padding: 1%;
+    border-bottom: solid thin;
+    border-right: solid thin;
+    border-color: linear-gradient(45deg, red, blue);
+}
+
+ul {
+    padding: 5% 0;
+    list-style-position: inside;
+    text-align: justify;
+}
+
+li {
+    padding: 1%;
+}
+
+#quotation {
+    text-align: right;
+    padding: 5% 0;
+    border-left: solid thick lightgrey;
+}
+
+#quotation>footer {
+    font-size: 80%;
+    color: grey;
+}
+
+#wiki {
+    padding: 5% 0;
+    text-align: justify;
+}
+
+#tribute-link:hover{
+    color: grey;
+}
+
+#credit-link:hover {
+    color: grey;
+}
+
+#main-footer {
+    text-align: center;
+}
